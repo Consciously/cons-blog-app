@@ -1,5 +1,5 @@
 import { authResolvers } from './auth';
-import { postResolvers } from './post';
+import { postResolvers } from './Post';
 
 export const Mutation = {
 	...postResolvers,
